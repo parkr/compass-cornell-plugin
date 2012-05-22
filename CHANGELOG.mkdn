@@ -2,6 +2,10 @@
 
 #### 2012-05-22 v0.1.1 ####
 
+* Renamed 'cake' include to 'cakephp', to be more specific.
+
+#### 2012-05-22 v0.1.1 ####
+
 * Changed headers so they weren't added to compiled CSS.
 * Removed `@charset "utf-8";` declaration, because that was showing up everywhere.
 

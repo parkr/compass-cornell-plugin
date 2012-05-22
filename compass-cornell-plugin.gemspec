@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{compass-cornell-plugin}
-  s.version = "0.1.1"
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.3.5")
   s.authors = ["Parker Moore"]
@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
     "README.mkdn",
 		"LICENSE.mkdn",
     "lib/cornell.rb",
-    "stylesheets/cornell/_cake.scss",
+    "stylesheets/cornell/_cakephp.scss",
     "stylesheets/cornell/_variables.scss"
   ]
   s.homepage = %q{https://github.com/CALSCommunications/compass-cornell-plugin}
