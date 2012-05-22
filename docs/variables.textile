@@ -1,0 +1,24 @@
+Below is a list of variables and their functions:
+
+h2. Fonts
+
+| *Variable* | *Description* |
+| @$PalatinoFontStack@  | font stack for Palatino Linotype, the primary typeface for Cornell's branding. |
+| @$FrutigerFontStack@  | font stack for Frutiger, the secondary typeface for Cornell's branding. |
+| @$MonospaceFontStack@ | font stack for monospace text. |
+
+h2. Colors
+
+| *Variable* | *Description* | *Value* |
+| @$TextColor@ | Text color. | #222 |
+| @$BackgroundColor@ | Background color. | #fff |
+| @$BackgroundColorContent@ | Background color for content | #f0eee3 |
+| @$TextColorContent@ | Text color for content | #333 |
+| @$LinkColor@ | Color for links | #b21d10 |
+| @$LinkColorHover@ | Color for hovered links | #ff0000 |
+| @$LinkColorVisited@ | Color for visited links | #B37474 |
+
+h2. General Variables
+
+| *Variable* | *Description* | *Value* |
+| @$CURed@ | Cornell Red | #b21d10 |
