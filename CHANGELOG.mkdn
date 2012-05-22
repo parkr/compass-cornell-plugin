@@ -1,5 +1,10 @@
 ## ChangeLog
 
+#### 2012-05-22 v0.1.1 ####
+
+* Changed headers so they weren't added to compiled CSS.
+* Removed `@charset "utf-8";` declaration, because that was showing up everywhere.
+
 #### 2012-05-22 v0.1.0 ####
 
 * Initial version.
