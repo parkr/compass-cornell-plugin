@@ -1,0 +1,25 @@
+# Cornell University Brand - Compass Plugin
+
+This plugin adds various Cornell branding to [Compass][].
+
+## Install
+
+	gem install compass-cornell-plugin
+
+## Adding the Cornell plugin to an existing project
+
+Add the following to your `compass.rb`/`config.rb` config file:
+
+	# Require any additional compass plugins here.
+	require 'cornell'
+
+Then make sure you have imported the variables library to your core `.sass` or `.scss` file with:
+
+	```scss
+	@import "cornell/variables"
+	```
+
+Check out the [wiki][compass-cornell-wiki] for variables, styles, and more information.
+
+[Compass]: http://compass-style.org/
+[compass-cornell-wiki]: https://github.com/CALSCommunications/compass-cornell-plugin/wiki/_pages
