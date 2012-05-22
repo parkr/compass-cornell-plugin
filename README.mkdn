@@ -15,9 +15,7 @@ Add the following to your `compass.rb`/`config.rb` config file:
 
 Then make sure you have imported the variables library to your core `.sass` or `.scss` file with:
 
-	```scss
 	@import "cornell/variables"
-	```
 
 Check out the [wiki][compass-cornell-wiki] for variables, styles, and more information.
 
