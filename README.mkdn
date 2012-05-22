@@ -19,5 +19,23 @@ Then make sure you have imported the variables library to your core `.sass` or `
 
 Check out the [wiki][compass-cornell-wiki] for variables, styles, and more information.
 
+## Credits
+
+[Parker Moore][] created this plugin to aid in his development work for [CALS Office of Communications][calscomm] in the Summer of 2012.
+
+Many thanks to [Chris Eppstein][] for creating Compass, and [Hampton Catlin][] for creating [Sass][]. 
+
+And many thanks to Chris Eppstein again for creating `compass-960-plugin`, which made the creation of this plugin far easier.
+
+## License
+
+Licensed under the MIT License. See [LICENSE.mkdn][] for details.
+
 [Compass]: http://compass-style.org/
 [compass-cornell-wiki]: https://github.com/CALSCommunications/compass-cornell-plugin/wiki/_pages
+[LICENSE.mkdn]: https://github.com/CALSCommunications/compass-cornell-plugin/blob/master/LICENSE.mkdn
+[Chris Eppstein]: http://chriseppstein.github.com/
+[Hampton Catlin]: http://hamptoncatlin.com/
+[Sass]: http://sass-lang.com/
+[calscomm]: http://cals.cornell.ed/
+[Parker Moore]: http://www.parkermoore.de/
