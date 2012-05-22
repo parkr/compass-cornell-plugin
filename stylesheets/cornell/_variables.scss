@@ -1,0 +1,35 @@
+@charset "utf-8";
+/**
+ *
+ * Useful variables for Compass-wielding web developer using Cornell University's designs.
+ * Cornell brand book: https://cornellbrand.cornell.edu/
+ *
+ * Created by Parker Moore, at the College of Agriculture and Life Sciences, Office of Communications
+ * Copyright 2012, Parker J. Moore. (http://parkermoore.de)
+ *
+ * Licensed under The MIT License
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @copyright     Copyright 2012, Parker J. Moore. (http://parkermoore.de)
+ * @link          http://cals.cornell.edu Cornell University College of Agriculture and Life Sciences Office of Communications
+ * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
+ */
+// Variables 
+
+// Font stacks
+$PalatinoFontStack: "Palatino Linotype", "Palatino", "Palladio", "URW Palladio L", "Book Antiqua", "Baskerville", "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+$FrutigerFontStack: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$MonospaceFontStack: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+
+// Colors
+$TextColor: #222;
+$BackgroundColor: #fff;
+$BackgroundColorContent: #f0eee3;
+$TextColorContent: #333;
+
+$LinkColor: #b21d10;
+$LinkColorHover: #ff0000;
+$LinkColorVisited: #B37474;
+
+// General purpose colors.
+$CURed: #b21d10;
