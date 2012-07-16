@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Compare Hex - Cornell Compass Extension</title>
+    <style type="text/css" media="screen">
+        .palette {
+            height: 100px;
+            width: 100px;
+        }
+    </style>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+    $(function(){
+        $('.hex_changer').keyup(function(){
+            var id = this.id, color = this.value, palette_id = (id+"_render");
+            console.log("Changing "+palette_id+" to "+color+".");
+            document.getElementById(palette_id).style.backgroundColor = ("#"+color);
+        });
+        $('.bg_switcher').click(function(){
+            document.body.style.backgroundColor = ("#"+this.value);
+            if(/000/.test(this.value)){
+                document.body.style.color = "#fff";
+            }else{
+                document.body.style.color = "#000";
+            }
+        });
+    });
+        
+    </script>
+</head>
+<body>
+    <div class="block_container">
+        <div class="palette" id="hex1_render"></div>
+        <p class="color">
+            #<input type="text" name="hex1" value="ffffff" id="hex1" class="hex_changer" maxlength="6">
+        </p>
+    </div>
+    <div class="block_container">
+        <div class="palette" id="hex2_render"></div>
+        <p class="color">
+            #<input type="text" name="hex2" value="ffffff" id="hex2" class="hex_changer" maxlength="6">
+        </p>
+    </div>
+    <div id="bg_switcher">
+        <p>
+            Background color:
+        </p>
+        <label><input type="radio" name="bg_color" class="bg_switcher" value="ffffff" checked="checked"> White</label>
+        <label><input type="radio" name="bg_color" class="bg_switcher" value="cccccc"> Grey</label>
+        <label><input type="radio" name="bg_color" class="bg_switcher" value="000000"> Black</label>
+    </div>
+</body>
+</html>
