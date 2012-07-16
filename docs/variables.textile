@@ -22,21 +22,21 @@ h2. General Variables
 
 _PMS_ stands for "Pantone Match System"
 
-| *Variable*       | *Description*   | *Value* | *Alias*            |
-| *Primary:*       |                 |         |                    |
-| @$CURed@         | Cornell Red     | #b21d10 |                    |
-| @$CUWhite@       | Cornell White   | #ffffff |                    |
-| @$CUGrey@        | Cornell Grey    | #706f73 |                    |
-| *Secondary:*     |                 |         |                    |
-| @$CU403@         | PMS #403        | #a2998b | $CUDarkBeige       |
-| @$CUWarmGrey@    | Warm Grey       | #d8d2c9 |                    |
-| @$CU5635@        | PMS #5635       | #9fad9f | $CUPaleForestGreen |
-| @$CU5845@        | PMS #5845       | #bfb778 | $CUBeige           |
-| @$CU7458@        | PMS #7458       | #89cce2 | $CULightBlue       |
-| @$CU7493@        | PMS #7493       | #c9d6a5 | $CUPaleGreen       |
-| @$CU7462@        | PMS #7462       | #0068ac | $CUBlue            |
-| @$CU7463@        | PMS #7463       | #00355f | $CUDarkBlue        |
-| @$CU032@         | PMS #032        | #ef4035 | $CURedOrange       |
-| @$CU144@         | PMS #144        | #f8981d | $CUYellow          |
-| @$CU369@         | PMS #369        | #6eb43f | $CUGreen           |
-| @$CUProcessBlue@ | Process Blue    | #0093d0 |                    |
+| *Variable*       | *Description*   | *Value* | *Alias*              |
+| *Primary:*       |                 |         |                      |
+| @$CURed@         | Cornell Red     | #b21d10 |                      |
+| @$CUWhite@       | Cornell White   | #ffffff |                      |
+| @$CUGrey@        | Cornell Grey    | #706f73 |                      |
+| *Secondary:*     |                 |         |                      |
+| @$CU403@         | PMS #403        | #a2998b | @$CUDarkBeige@       |
+| @$CUWarmGrey@    | Warm Grey       | #d8d2c9 |                      |
+| @$CU5635@        | PMS #5635       | #9fad9f | @$CUPaleForestGreen@ |
+| @$CU5845@        | PMS #5845       | #bfb778 | @$CUBeige@           |
+| @$CU7458@        | PMS #7458       | #89cce2 | @$CULightBlue@       |
+| @$CU7493@        | PMS #7493       | #c9d6a5 | @$CUPaleGreen@       |
+| @$CU7462@        | PMS #7462       | #0068ac | @$CUBlue@            |
+| @$CU7463@        | PMS #7463       | #00355f | @$CUDarkBlue@        |
+| @$CU032@         | PMS #032        | #ef4035 | @$CURedOrange@       |
+| @$CU144@         | PMS #144        | #f8981d | @$CUYellow@          |
+| @$CU369@         | PMS #369        | #6eb43f | @$CUGreen@           |
+| @$CUProcessBlue@ | Process Blue    | #0093d0 |                      |
