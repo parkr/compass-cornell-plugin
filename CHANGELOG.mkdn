@@ -1,6 +1,13 @@
 ## ChangeLog
 
-#### 2012-05-22 v0.1.1 ####
+#### 2012-07-16 v0.2.0 ####
+
+* Added entire colour palette to variables.
+* Updated docs with info about new variables.
+* Added docs page for CakePHP integration.
+* Added test page for viewing difference in hex values.
+
+#### 2012-05-22 v0.1.2 ####
 
 * Renamed 'cake' include to 'cakephp', to be more specific.
 

@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{compass-cornell-plugin}
-  s.version = "0.1.2"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.3.5")
   s.authors = ["Parker Moore"]
-  s.date = %q{2012-05-22}
+  s.date = %q{2012-07-16}
   s.description = %q{A Compass plugin for the creation of Cornell University-branded websites.}
   s.email = %w{pjm336@cornell.edu}
   s.has_rdoc = false
