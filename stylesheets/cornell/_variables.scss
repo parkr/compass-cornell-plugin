@@ -29,4 +29,34 @@ $LinkColorHover: #ff0000;
 $LinkColorVisited: #B37474;
 
 // General purpose colors.
-$CURed: #b21d10;
+
+// Primary colour set
+$CURed:   #b21d10;
+$CUWhite: #ffffff;
+$CUGrey:  #706f73;
+
+// Secondary colour set
+$CU403:         #a2998b;
+$CUWarmGrey:    #d8d2c9;
+$CU5635:        #9fad9f;
+$CU5845:        #bfb778;
+$CU7458:        #89cce2;
+$CU7493:        #c9d6a5;
+$CU7462:        #0068ac;
+$CU7463:        #00355f;
+$CU032:         #ef4035;
+$CU144:         #f8981d;
+$CU369:         #6eb43f;
+$CUProcessBlue: #0093d0;
+
+// Aliases
+$CUDarkBeige:       $CU403;
+$CUPaleForestGreen: $CU5635;
+$CUBeige:           $CU5845;
+$CULightBlue:       $CU7458;
+$CUPaleGreen:       $CU7493;
+$CUBlue:            $CU7462;
+$CUDarkBlue:        $CU7463;
+$CURedOrange:       $CU032;
+$CUYellow:          $CU144;
+$CUGreen:           $CU369;
